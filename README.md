@@ -3,12 +3,14 @@ Customer segmentation is the process of dividing a customer base into distinct g
 
 In this project, I utilized SQL to extract and analyze data from the customer_seg table. This table contains comprehensive information about customers, including:
 
-1 user_id: A unique identifier for each customer.
-2 gender: The gender of the customer.
-3 age: The age of the customer.
-4 salary: The salary of the customer.
-5 purchase_history: A binary indicator (1 or 0) showing whether the customer has made a purchase.
-6 date: The date associated with the purchase history.
+- user_id: A unique identifier for each customer.
+- gender: The gender of the customer.
+- age: The age of the customer.
+- salary: The salary of the customer.
+- purchase_history: A binary indicator (1 or 0) showing whether the customer has made a purchase.
+- date: The date associated with the purchase history.
+## Script
+The PostgreSQL code is contained in the script directory.
 
 By examining these attributes, I was able to segment customers based on their demographics and purchasing behavior. This analysis provided insights into which segments are most valuable and allowed for the development of targeted marketing and sales strategies. For instance, understanding the relationship between age and purchase frequency can help tailor promotional offers, while analyzing salary data can aid in creating premium product lines for higher-income segments.
 
